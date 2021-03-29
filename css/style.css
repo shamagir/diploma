@@ -35,14 +35,17 @@ input {
   max-width: 1200px;
 }
 
+.block-title {
+
+}
+
 /* Header */
 .header {
   background-color: #000000;
-  background-image: url( ../img/banner-bg.jpg );
+  background-image: url( ../images/banner-bg.jpg );
   position: relative;
   z-index: 0;
   background-size: cover;
-  background-position: center center;
   margin-bottom: 65px;
   padding: 35px 0px 96px 0px;
 }
@@ -125,7 +128,6 @@ input {
   font-size: 20px;
   color: #0f0d0e;
   text-align: center;
-  margin: 0px;
 }
 
 .block-trends-header h3:after {
@@ -171,19 +173,19 @@ input {
 }
 
 .trend-item:nth-child(1) {
-  background-image: url('../img/trend1.jpg');
+  background-image: url('../images/trend1.jpg');
 }
 
 .trend-item:nth-child(2) {
-  background-image: url('../img/trend2.jpg');
+  background-image: url('../images/trend2.jpg');
 }
 
 .trend-item:nth-child(3) {
-  background-image: url('../img/trend3.jpg');
+  background-image: url('../images/trend3.jpg');
 }
 
 .trend-item:nth-child(4) {
-  background-image: url('../img/trend4.jpg');
+  background-image: url('../images/trend4.jpg');
 }
 
 .trend-item-content-block {
@@ -554,15 +556,6 @@ button.mailing-submit {
 /* END ASIDE */
 
 /* Our products */
-.block-products {
-
-}
-
-.block-products-header{
-  margin-top: 64px;
-  margin-bottom: 64px;
-}
-
 .block-products-header h3{
   text-transform: uppercase;
   font-weight: bold;
@@ -726,3 +719,12 @@ button.mailing-submit {
   padding-bottom: 40px;
 }
 /* END FOOTER */
+
+/* Popup block */
+.popup {
+
+}
+
+.popup-container {
+
+}
