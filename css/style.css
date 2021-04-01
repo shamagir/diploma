@@ -88,7 +88,7 @@ input {
   text-transform: uppercase;
   color: #ffffff;
   text-decoration: none;
-  font-size: 13px;
+  font-size: 1.3rem;
 }
 
 .navigation a:hover {
@@ -104,8 +104,8 @@ input {
   width: 680px;
   text-align: center;
   color: #ffffff;
-  font-size: 45px;
-  line-height: 75px;
+  font-size: 4.5rem;
+  line-height: 7.5rem;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -121,7 +121,7 @@ input {
 .block-trends-header h3{
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 2rem;
   color: #0f0d0e;
   text-align: center;
 }
@@ -205,7 +205,7 @@ input {
   text-decoration: none;
   color: #b59f5b;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: bold;
 }
 
@@ -221,7 +221,7 @@ input {
   color: #ffffff;
   text-transform: uppercase;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 2rem;
 }
 
 .trend-item-title a:hover {
@@ -277,7 +277,7 @@ input {
   color: #b59f5b;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: bold;
 }
 .tags-list-item a:hover {
@@ -303,7 +303,7 @@ input {
   text-decoration: none;
   text-transform: uppercase;
   color: #0f0d0e;
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: bold;
 }
 
@@ -320,7 +320,7 @@ input {
 .article-meta-date{
   display: block;
   color: #888888;
-  font-size: 12px;
+  font-size: 1.2rem;
   margin-right: 15px;
 }
 
@@ -328,12 +328,12 @@ input {
   display: block;
   color: #000000;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 1.2rem;
 }
 
 .article-preview {
   color: #0f0d0e;
-  font-size: 15px;
+  font-size: 1.5rem;
   line-height: 22px;
 }
 /* END MAIN */
@@ -346,7 +346,7 @@ input {
 .aside-header h3{
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 1.4rem;
   color: #0f0d0e;
   text-align: center;
   margin: 0px;
@@ -357,7 +357,7 @@ input {
   margin: 0px auto 22px auto;
   display: block;
   width: 66px;
-  padding-top: 14px;
+  padding-top: 1.4rem;
   border-bottom: 3px solid #e1d9bd;
 }
 
@@ -383,7 +383,7 @@ input {
 
 .new-post-date {
   display: block;
-  font-size: 12px;
+  font-size: 1.2rem;
   margin-bottom: 7px;
   color: #000000;
   opacity: 0.54;
@@ -391,7 +391,7 @@ input {
 
 .new-post-title {
   margin: 0px;
-  font-size: 14px;
+  font-size: 1.4rem;
   text-transform: uppercase;
   font-weight: bold; 
   width: 185px;
@@ -422,7 +422,7 @@ input {
   margin: 0px;
   padding: 16px 20px;
   vertical-align: middle;
-  font-size: 13px;
+  font-size: 1.3rem;
   background-color: #f4f7f6;
   border: 0;
 }
@@ -468,7 +468,7 @@ input {
   margin: 0px 0px 15px 0px;
   padding: 16px 20px;
   vertical-align: middle;
-  font-size: 13px;
+  font-size: 1.3rem;
   background-color: #f4f7f6;
   border: 0;
 }
@@ -478,7 +478,7 @@ button.mailing-submit {
   border: 0;
   padding: 14px 0px;
   color: #ffffff;
-  font-size: 14px;
+  font-size: 1.4rem;
   text-transform: uppercase;
   font-weight: bold;
   margin: 0px;
@@ -506,7 +506,7 @@ button.mailing-submit {
   text-decoration: none;
   text-transform: uppercase;
   color: #0f0d0e;
-  font-size: 12px;
+  font-size: 1.2rem;
   font-weight: bold;
 }
 
@@ -533,7 +533,7 @@ button.mailing-submit {
 
 .theme-title {
   text-decoration: none;
-  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: bold;
   color: #000000;
 }
@@ -543,7 +543,7 @@ button.mailing-submit {
 }
 
 .theme-articles-number {
-  font-size: 12px;
+  font-size: 1.2rem;
   color: #b59f5b;
   font-weight: bold;
   position: relative;
@@ -555,7 +555,7 @@ button.mailing-submit {
 .block-products-header h3{
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 2rem;
   color: #0f0d0e;
   text-align: center;
   margin: 0px;
@@ -599,7 +599,7 @@ button.mailing-submit {
 
 .products-item-title {
   color: #000000;
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: bold;
   text-transform: uppercase;
   margin: 0;
@@ -607,7 +607,7 @@ button.mailing-submit {
 }
 
 .products-item-description {
-  font-size: 15px;
+  font-size: 1.5rem;
   margin-bottom: 25px;
 }
 
@@ -631,16 +631,16 @@ button.mailing-submit {
 }
 
 .old-cost {
-  font-size: 14px;
+  font-size: 1.4rem;
   text-decoration: line-through; 
 }
 
 .new-cost {
-  font-size: 20px;
+  font-size: 2rem;
 }
 
 .products-item-button {
-  font-size: 14px;
+  font-size: 1.4rem;
   text-transform: uppercase;
   color: #ffffff;
   font-weight: bold;
@@ -711,7 +711,7 @@ button.mailing-submit {
   text-align: center;
   text-decoration: none;
   color: #999999;
-  font-size: 12px;
+  font-size: 1.2rem;
   padding-bottom: 40px;
 }
 /* END FOOTER */
@@ -732,8 +732,162 @@ button.mailing-submit {
 }
 
 .modal-container {
-  width: 300px;
-  height: 300px;
+  width: 100%;
+  max-width: 390px;
   background-color: #ffffff;
   position: relative;
+  padding: 30px 25px;
+}
+
+.modal-content {
+
+}
+
+.modal-header {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #0f0d0e;
+  text-align: center;
+}
+
+.modal-header:after {
+  content: "";
+  margin: 0px auto 22px auto;
+  display: block;
+  width: 66px;
+  padding-top: 14px;
+  border-bottom: 3px solid #e1d9bd;
+}
+
+.modal-close {
+  position: absolute;
+  right: -40px;
+  top: -40px;
+  border: 0;
+  outline: none;
+  text-indent: -9999px;
+  background-color: transparent;
+  cursor: pointer;
+  background-image: url( ../svg/form-x.svg );
+  background-repeat: no-repeat;
+}
+
+.modal-form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.modal-form-group:nth-last-child(n+2) {
+  margin-bottom: 30px;
+}
+.modal-group-header {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.select {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 100%;
+  height: 48px;
+  padding-left: 20px;
+  padding-right: 25px;
+  margin: 0;
+  border: 0;
+  background-color: #f4f7f6;
+  font-size: 1.3rem;
+  color: #828383;
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  outline: none;
+  border-radius: unset;
+  background-image: url( ../svg/form-arrows.svg );
+  background-repeat: no-repeat;
+  background-position: right 15px center;
+  background-size: 10px;
+}
+
+.select:focus {
+  border-bottom: solid 1px #b59f5b;
+}
+
+.radio-text {
+  font-size: 1.3rem;
+}
+
+.radio-text:before {
+  margin-right: 8px;
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  background-image: url( ../svg/form-empty-circle.svg );
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 20px auto;
+}
+
+.radio:checked ~ .radio-text::before {
+  background-image: url( ../svg/form-circle.svg );
+
+}
+
+input.radio {
+  position:absolute;
+  clip:rect(1px,1px,1px,1px);
+  height:1px;
+  width:1px;
+}
+
+.modal-textarea {
+  width: 100%;
+  box-sizing: border-box;
+  resize: none;
+  font-family: inherit;
+  border: 0;
+  outline: none;
+  background-color: #f4f7f6;
+  font-size: 1.3rem;
+  color: #828383;
+  padding: 20px;
+  min-height: 130px;
+}
+
+.modal-textarea:focus {
+  border-bottom: solid 1px #b59f5b;
+}
+
+.modal-button {
+  color: #ffffff;
+  background-color: #b59f5b;
+  text-transform: uppercase;
+  padding: 20px auto;
+  width: 100%;
+  border: 0;
+  cursor: pointer;
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 40px;
+  outline: none;
+}
+
+.modal-button:hover {
+  background-color: #323232;
+}
+
+@media (max-width: 360px) {
+
+}
+
+@media (min-width: 361px) and (max-width: 768px) {
+
+}
+
+@media (min-width: 769px) {
+  html {
+    font-size: 62.5%;
+  }
 }

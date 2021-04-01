@@ -461,10 +461,46 @@
     <a class="copyright" href="#0">Copyright © 2009–2019 City Blog LLC.</a>
   </footer>
 
-  <div class="modal visually-hidden">
+  <div class="modal">
     <div class="modal-container">
-      
-    </div>
+      <div class="modal-content">
+        <button class="modal-close" type="button">Закрыть окно</button>
+        <header class="modal-header">
+          ваш фидбэк
+        </header>
+        <div class="modal-form-block">
+          <form class="modal-form">
+            <div class="modal-form-group">
+              <div class="modal-group-header">Как часто вы заходите на сайт?</div>
+              <select class="select">
+                <option value="1" selected>Почти каждый день</option>
+                <option value="2">Раз в несколько дней</option>
+                <option value="3">Раз в несколько недель</option>
+                <option value="4">Несколько раз в год</option>
+              </select>
+            </div>
+            <div class="modal-form-group">
+              <div class="modal-group-header">Вы подписаны на email-рассылку?</div>
+              <label class="radio-group">
+                <input type="radio" class="radio visually-hidden" name="mailing" value="yes" checked required>
+                <span class="radio-text">Да</span>
+              </label>
+              <label class="radio-group">
+                <input type="radio" class="radio visually-hidden" name="mailing" value="no" required>
+                <span class="radio-text">Нет</span>
+              </label>
+            </div>
+            <div class="modal-form-group">
+              <div class="modal-group-header">Расскажите, какой контент выхотели бы видеть на нашем сайте?</div>
+              <textarea class="modal-textarea" placeholder="Может больше рецептов?"></textarea>
+            </div>
+            <div class="modal-form-group">
+              <button class="modal-button">Отправить</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>  
   </div>
 </body>
 </html>
