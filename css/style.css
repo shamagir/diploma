@@ -813,6 +813,14 @@ button.mailing-submit {
   border-bottom: solid 1px #b59f5b;
 }
 
+.modal-group-content {
+  display: flex;
+}
+
+.radio-group:first-child {
+  margin-right: 10px;
+}
+
 .radio-text {
   font-size: 1.3rem;
 }
