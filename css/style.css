@@ -143,7 +143,7 @@ input {
 .trend-item {
   padding: 15px 20px;
   position: relative;
-  width: 24%;
+  width: calc(25% - 2px);
   min-height: 320px;
   display: flex;
   align-items: flex-end;
@@ -165,7 +165,7 @@ input {
 }
 
 .trend-item:nth-last-child(n+2) {
-  margin-right: 5px;
+  margin-right: 4px;
 }
 
 .trend-item:nth-child(1) {
@@ -231,6 +231,7 @@ input {
 /* Content */
 .content-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   margin-bottom: 65px; 
 }
@@ -583,6 +584,10 @@ button.mailing-submit {
   flex-direction: column;
 }
 
+.products-item:nth-child(n + 2) {
+  mergin-left: 20px;
+} 
+
 .products-item-thumb {
   position: relative;
   top: 30px;
@@ -886,12 +891,58 @@ input.radio {
   background-color: #323232;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 1279px) {
+  .trends-list {
+    flex-wrap: wrap;
+  }
+  
+  .trend-item {
+    width: calc(50% - 42px);
+  }
+
+  .trend-item:nth-child(odd) {
+    margin-right: 4px;
+  }
+
+  .trend-item:nth-last-child(n + 2) {
+    margin-right: 0px;
+  }
+
+  .trend-item:nth-child(n + 3) {
+    margin-top: 4px;
+  }
+
+  .products-list {
+    flex-wrap: wrap;
+  }
+
+  .products-item {
+    max-width: calc(50%);
+    margin-right: 25px;
+  }
 
 }
 
-@media (min-width: 361px) and (max-width: 768px) {
+@media (max-width: 768px) {
+  .trend-item {
+    width: 100%;
+  }
 
+  .trend-item:nth-child(odd) {
+    margin-right: 0px;
+  }
+
+  .trend-item:nth-last-child(n + 2) {
+    margin-right: 0px;
+  }
+
+  .trend-item:nth-child(n + 2) {
+    margin-top: 4px;
+  }
+
+  .products-item {
+    width: 100%;
+  }
 }
 
 @media (min-width: 769px) {
