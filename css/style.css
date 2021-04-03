@@ -12,11 +12,18 @@
   font-style: normal;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
+html {
+  font-size: 62.5%;
+}
+
 body {
   margin: 0px;
   padding: 0px;
   font-family: "OpenSans", sans-serif;
-  min-width: 320px;
 }
 
 input {
@@ -70,18 +77,23 @@ input {
   width: 179px;
 }
 
+.burger {
+  width: 1px;
+  height: 1px;
+  clip: rect( 1px, 1px, 1px, 1px );
+  position: absolute;
+  border: 0;
+  background-color: transparent;
+}
+
 .navigation ul {
   list-style-type: none;
   padding: 0px;
   display: flex;
 }
 
-.navigation li {
+.navigation li:nth-last-child(n+2) {
   margin-right: 35px;
-}
-
-.navigation li:last-child {
-  margin-right: 0px;
 }
 
 .navigation a {
@@ -230,20 +242,20 @@ input {
 
 /* Content */
 .content-container {
-  display: flex;
-  flex-wrap: wrap;
+  display: flex; 
   justify-content: center;
   margin-bottom: 65px; 
 }
 
 /* Main */
 .main {
-  margin-right: 120px;
+  margin-right: 130px
 }
 
 /* New articles */
 .block-new-articles {
 }
+
 .article {
   display: flex;
   align-items: flex-start;
@@ -263,7 +275,7 @@ input {
 }
 
 .article-box {
-  width: 365px;
+  width: 100%;
 }
 
 .tags-list {
@@ -340,11 +352,14 @@ input {
 /* END MAIN */
 
 /* Aside */
-.aside-header{
+.aside {
+  width: 270px;
+}
+.aside-header {
   margin-bottom: 25px;
 }
 
-.aside-header h3{
+.aside-header h3 {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 1.4rem;
@@ -579,13 +594,13 @@ button.mailing-submit {
 
 .products-item {
   position: relative;
-  max-width: 30%;
+  max-width: calc(33.3% - 25px);
   display: flex;
   flex-direction: column;
 }
 
 .products-item:nth-child(n + 2) {
-  mergin-left: 20px;
+  mergin-left: 25px;
 } 
 
 .products-item-thumb {
@@ -892,6 +907,58 @@ input.radio {
 }
 
 @media (max-width: 1279px) {
+  .header {
+    background-image: url( ../images/banner-bg-tablet.jpg );
+  }
+
+  .logo {
+    padding-left: 15px;
+  }
+  
+  .burger{
+    width: 32px;
+    height: 32px;
+    clip: auto;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    padding: 0;
+    cursor: pointer;
+  }
+
+  .navigation ul{
+    width: 1px;
+    height: 1px;
+    clip: rect( 1px, 1px, 1px, 1px );
+    position: absolute;
+  }
+
+  .header-title {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 15px;
+  }
+
+  .content-container {
+    padding: 0 15px;
+    margin-bottom: 50px;
+  }
+
+  .main{
+    margin-right: 30px;
+  }
+
+  .article{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .article-image{
+    width: 100%;
+    margin-right: 0;
+    align-self: center;
+  }
+
   .trends-list {
     flex-wrap: wrap;
   }
@@ -917,13 +984,105 @@ input.radio {
   }
 
   .products-item {
-    max-width: calc(50%);
+    max-width: calc(50% - 25px);
+  }
+  .products-item:nth-child(odd) { 
     margin-right: 25px;
   }
 
+  .footer {
+    padding: 0 15px;
+  }
 }
 
 @media (max-width: 768px) {
+  .header {
+    background-image: url( ../images/banner-mobile.jpg );
+    background-size: cover;
+    box-sizing: border-box;
+    height: 100vh;
+    flex-direction: column;
+    padding-top: 50%;
+  }
+
+  .burger{
+    width: 32px;
+    height: 32px;
+    clip: auto;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    padding: 0;
+    cursor: pointer;
+  }
+
+  .navigation-container{
+    margin-bottom: 0;
+  }
+
+  .logo {
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .logo img{
+    height: 58px;
+    width: auto;
+  }
+
+  .navigation ul{
+    width: 1px;
+    height: 1px;
+    clip: rect( 1px, 1px, 1px, 1px );
+    position: absolute;
+  }
+
+  .header-title {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 15px;
+  }
+
+  .content-container{
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+  }
+
+  .main {
+    width: 100%;
+    padding: 0 15px;
+    margin-right: 0;
+  }
+
+  .aside {
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  .themes-section {
+    margin-bottom: 0;
+  }
+
+  .article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .article-image{
+    width: 100%;
+    margin-right: 0;
+    align-self: center;
+  }
+
+  .trends-list {
+    flex-wrap: wrap;
+  }
+
+  .products-list {
+    flex-wrap: wrap;
+  }
+
   .trend-item {
     width: 100%;
   }
@@ -941,12 +1100,12 @@ input.radio {
   }
 
   .products-item {
-    width: 100%;
+    max-width: 100%;
+    margin: 25px;
   }
-}
 
-@media (min-width: 769px) {
-  html {
-    font-size: 62.5%;
+  .footer {
+    padding: 0 15px;
   }
+
 }
