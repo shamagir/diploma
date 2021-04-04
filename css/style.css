@@ -24,6 +24,7 @@ body {
   margin: 0px;
   padding: 0px;
   font-family: "OpenSans", sans-serif;
+  min-width: 320px;
 }
 
 input {
@@ -1136,7 +1137,10 @@ input.radio {
 
   .products-item {
     max-width: 100%;
-    margin: 0 25px;
+  }
+
+  .products-item:nth-child(odd) {
+    margin-right: 0;
   }
 
   .footer {
