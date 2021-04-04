@@ -282,7 +282,7 @@ input {
   display: flex;
   list-style-type: none;
   padding: 0px;
-  margin: 0px 0px;
+  margin: 0px 0px 10px 0px;
   flex-flow: wrap;
 }
 
@@ -964,6 +964,10 @@ input.radio {
     align-self: center;
   }
 
+  .tags-list {
+    margin: 10px 0px;
+  }
+
   .trends-list {
     flex-wrap: wrap;
   }
@@ -1065,6 +1069,10 @@ input.radio {
     padding: 0 15px;
     margin-right: 0;
     margin-bottom: 44px;
+  }
+
+  .tags-list {
+    margin: 10px 0px;
   }
 
   .aside {
